@@ -1,0 +1,34 @@
+body, html{
+	height: 100%;
+}
+header{
+	background-image: linear-gradient(to right,black,#321717,black);
+	padding:5em 5em 3em 5em;
+}
+.contenido{
+	background:rgba(255,255,255,0.2);
+	padding: 2em;
+}
+.centrar{
+	text-align: center;
+}
+.menu{
+	list-style: none;
+	display:flex;
+	width: 60%;
+	justify-content: space-around;
+	text-transform:uppercase;
+	margin: 0 auto; /* centrar */
+	font-style: none;
+}
+.fondo{
+	background: url("imagenes/Body-background.jpg")no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+
+	
+}
+.menu li a{
+	font-size: 1.6em;
+	color: #fff;
+}
